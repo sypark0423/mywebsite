@@ -1,3 +1,42 @@
+header {
+    background: deeppink;
+    color: white;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    }
+  
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+li {
+    display: inline-block;
+    margin-left: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    color: whitesmoke;
+  }
+  
+body { 
+    /* 헤더와 바디 분리 어떻게? */
+    padding: 0 16px;
+    margin: 0;
+  }
+  
+html {
+    /* 자간? */ 
+    height: 200%; 
+    line-height: 1.6;
+  }
+
 a {
     text-decoration-line: none;
+    link:aliceblue;
+
 }

@@ -1,19 +1,53 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8">
-    <title>park sunyoung</title>
-  </head>
-  
-  <body>
+
+<head>
+  <meta charset="UTF-8">
+  <title>park sunyoung</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<header>
+  <h1 id="nav-name">박선영</h1>
+  <nav id="menu">
     <ul>
-      <li><a href="home.html">HOME</a></li>
+      <li><a href="index.html">HOME</a></li>
       <li><a href="aboutme.html">ABOUT ME</a></li>
-      <li><a href="like.html">LIKE</a></li>      
+      <li><a href="like.html">LIKE</a></li>
+      <li><a href="todolist.html">TodoList</a></li>
     </ul>
+  </nav>
+</header>
 
-  
-    <p>이 문서는 HTML 문서입니다.</p>
-  </body>
+<body>
+  <div id="index">
+    <p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/js1CtxSY38I" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </p>
+  </div>
 
-  </html>
+  <div id="disqus_thread"></div>
+  <script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function () { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://mypage-syp.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+      Disqus.</a></noscript>
+</body>
+
+</html>
