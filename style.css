@@ -206,3 +206,29 @@ ul.imgs li {
     transition: 0.5s;
     z-index: 1;
 }
+
+/* todolist */
+#todocategory h1 {
+    text-align: center;
+    margin: 50px;
+
+}
+
+#todocategory2 {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.js-toDoForm {
+    display: block;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.js-toDoList li {
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+}
